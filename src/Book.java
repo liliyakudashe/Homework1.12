@@ -14,13 +14,11 @@ public class Book {
     public String getYearOfPublicationOfTheBook(){
         return this.yearOfPublicationOfTheBook;
     }
+    public String getAuthorBook() {
+        return authorBook.toString();
+    }
 
     public void setYearOfPublicationOfTheBook(String yearOfPublicationOfTheBook){
         this.yearOfPublicationOfTheBook = yearOfPublicationOfTheBook;
     }
-
-    public String getAuthorBook(){
-        return String.valueOf(this.authorBook);
-    }
-
 }

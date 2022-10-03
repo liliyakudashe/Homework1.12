@@ -1,15 +1,12 @@
 public class Author {
+
     private String authorBook;
 
-    public Author(String authorOfTheBook){
-       this.authorBook = authorOfTheBook;
+    public Author(String authorBook){
+       this.authorBook = authorBook;
     }
 
     public String getAuthorBook() {
         return authorBook;
-    }
-
-    public void setAuthorBook(String authorBook) {
-        this.authorBook = authorBook;
     }
 }
